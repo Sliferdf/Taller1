@@ -1,0 +1,161 @@
+body {
+    opacity: 0.8;
+}
+
+#x {
+    width: 80%;
+    height: 350px;
+    opacity: 0.85;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5px;
+    position: relative; 
+}
+#prueba {
+    position:absolute;
+    top: 25%;
+    left: 12%;
+}
+#x:hover{
+    opacity: 0.5;
+    box-shadow: 5px 10px 8px #888888;
+    transition: opacity 1s ease;
+}
+
+#princ {
+    color: black;
+    background: black;
+    widows: 100%;
+	height:100%;
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: inline-block;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+.text{
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(red, rgb(67, 68, 67), blue, alpha);
+}
+
+ 
+#pie {
+    width: 100%;
+    height: 100px;
+    opacity: 1;
+    background-color: black;
+}
+
+#infopie{
+    color: white;
+    text-align: center;
+    float: left;
+    margin-left: 15%;
+}
+
+#inicio {
+    width: 100%;
+    height: 100px;
+    opacity: 1;
+    background-color: rgb(0, 0, 0);
+    color: black;
+    font-size: 30px;
+}
+
+#img2 {
+    margin-top: 10px;
+    margin-left: 10%;
+    width: 10%;
+    height: 80%;
+}
+.galery {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 1px;
+}
+h4{
+    text-align: center;
+    float: right;
+    color: white;
+    margin-right: 10%;
+}
+
+#restante {
+    width: 70%;
+    height: 100%;
+    background-color: white;
+    float: right;
+}
+
+#lateral {
+    width: 25%;
+    height: 100%;
+    background-color: white;
+    float: left;
+}
+
+.vd {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 1px;
+}
+
+.title {
+    color: brown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.line {
+    border-bottom:1px dotted #888888;
+}
+
+#section2 {
+    margin-top: 120px;
+    width: 120px;
+    height: 100px;
+    background: rgb(0, 0, 0);
+    text-align: center;
+    color: rgb(136, 10, 10);
+    position: fixed;
+    border-radius: 5%;
+    font-size: 0%;
+
+}
+
+#section2:hover{
+	height:200px;
+	background-color:#6d0a0a;
+	cursor:pointer;
+	box-shadow:0px 2px 20px #000;
+    color:#fff;
+    font-size: 90%;
+    text-align: left;
+	
+	-webkit-transition: width 1s ease,height 1s ease,background-color 2s ease-out, border-radius 2s ease-in-out, padding 1s ease 2s, box-shadow 1s ease 2s, color 3s linear, font-size 1s ease;
+    -moz-transition: width 1s ease,height 1s ease,background-color 2s ease-out, border-radius 2s ease-in-out, padding 1s ease 2s, box-shadow 1s ease 2s, color 3s linear, font-size 1s ease;
+    -o-transition: width 1s ease,height 1s ease,background-color 2s ease-out, border-radius 2s ease-in-out, padding 1s ease 2s, box-shadow 1s ease 2s, color 3s linear, font-size 1s ease;
+    -ms-transition: width 1s ease,height 1s ease,background-color 2s ease-out, border-radius 2s ease-in-out, padding 1s ease 2s, box-shadow 1s ease 2s, color 3s linear, font-size 1s ease;    
+    transition: width 1s ease,height 1s ease,background-color 2s ease-out, border-radius 2s ease-in-out, padding 1s ease 2s, box-shadow 1s ease 2s, color 3s linear, font-size 1s ease;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-right: 20px;
+    opacity: 0.5;
+}
+
+.icon:hover{
+    opacity: 1;
+    -webkit-transition: opacity 1s ease;
+    -moz-transition: opacity 1s ease;
+    -o-transition: opacity 1s ease;
+    -ms-transition: opacity 1s ease;
+    transition: opacity 1s ease;
+}
